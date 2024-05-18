@@ -1,6 +1,8 @@
---- gcc-9.2.0.orig/gcc/config/m68k/m68k.md	2019-01-01 07:31:55.000000000 -0500
-+++ gcc-9.2.0/gcc/config/m68k/m68k.md	2020-07-01 15:57:20.528408009 -0400
-@@ -4126,13 +4126,13 @@
+diff --git a/gcc/config/m68k/m68k.md b/gcc/config/m68k/m68k.md
+index 59a456cd496..dbfddea41bd 100644
+--- a/gcc/config/m68k/m68k.md
++++ b/gcc/config/m68k/m68k.md
+@@ -4174,13 +4174,13 @@
  (define_expand "sqrt<mode>2"
    [(set (match_operand:FP 0 "nonimmediate_operand" "")
  	(sqrt:FP (match_operand:FP 1 "general_operand" "")))]
